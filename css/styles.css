@@ -464,7 +464,7 @@ a {
   cursor: pointer;
 }
 .footer-btn:is(:hover, :focus) {
-  background-color: var(--accent-color);
+  background-color: #404bbf;
 }
 .footer-icon {
   display: inline-flex;
@@ -531,7 +531,7 @@ a {
 
 .modal-btn-close:is(:hover, :focus) {
   fill: #fff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
   border: none;
 }
 
