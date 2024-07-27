@@ -463,7 +463,9 @@ a {
   align-items: center;
   cursor: pointer;
 }
-
+.footer-btn:is(:hover, :focus) {
+  background-color: var(--accent-color);
+}
 .footer-icon {
   display: inline-flex;
   margin-left: 16px;
@@ -520,6 +522,7 @@ a {
   padding: 0;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .modal-btn-icon {
